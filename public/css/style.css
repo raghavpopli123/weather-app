@@ -1,0 +1,36 @@
+body{
+
+    color:black;
+    font-family: Arial;
+    max-width: 650px;
+    padding:0 450px;
+
+}
+
+footer{
+      color: grey; 
+    border-color: brown;
+    border-width: 1px;
+    border-top: dotted;
+    margin-top: 20px;
+
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+    
+}
+
+.main-content{
+    flex-grow: 1;
+}
+header a{
+    font-family: Arial;
+    text-decoration: none;
+    margin-right: 16px;
+    color: grey;
+}
+#image{
+
+    width: 250px;
+    height: 250px;
+}
