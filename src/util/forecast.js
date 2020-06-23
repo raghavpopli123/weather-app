@@ -14,7 +14,7 @@ const forecast=function(latitude,longitude,callback)
          }
          else{
               
-             callback(undefined, response.body.daily.summary+" .It is currently " + response.body.currently.temperature + "°C.There is a " + response.body.currently.precipProbability + " % chance of rain.");
+             callback(undefined, response.body.daily.data[0].summary+" .It is currently " + response.body.currently.temperature + "°C.There is a " + response.body.currently.precipProbability + " % chance of rain.The high Today is "+response.body.daily.data[0].temperatureHigh+"°C"+" And Low today is "+response.body.daily.data[0].temperatureLow+"°C.");
          }
          
     
